@@ -1,0 +1,10 @@
+.actio {
+position: relative;
+bottom: 160px;
+margin: 0 auto;
+width: 240px;
+z-index:99;
+font-size: 1.8rem;
+letter-spacing: 5px;
+font-weight: 500;
+}
