@@ -9,7 +9,7 @@ function moveFirstSlide() {
 };
 
 $(function(){
-	$("carouselList").setInterval(changeSlide,3000);
+	$('carouselList').setInterval(changeSlide,3000);
 	
 
 });
