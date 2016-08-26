@@ -8,3 +8,10 @@ font-size: 1.8rem;
 letter-spacing: 5px;
 font-weight: 500;
 }
+
+
+
+.sli {
+	position: relative;
+	overflow: hidden;
+}
