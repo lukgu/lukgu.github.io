@@ -1,3 +1,6 @@
+body {
+	margin: 0 auto;
+}
 .actio {
 position: relative;
 bottom: 160px;
@@ -11,7 +14,17 @@ font-weight: 500;
 
 
 
-. {
-	position: relative;
-	overflow: hidden;
+.sli {
+	height: 100vh;
+	width: 100%;
+}
+
+.icons {
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.promo-row {
+	margin: 20px;
 }
