@@ -22,9 +22,19 @@ font-weight: 500;
 .icons {
 	margin: 0 auto;
 	width: 100%;
+	padding: 35px 20px;
 
 }
 
 .promo-row {
 	margin: 20px;
+}
+
+.formularz {
+	padding: 35px 20px;
+}
+
+.camera {
+	padding: 35px 20px;
+	height: 100%;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" >
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -69,8 +70,10 @@
       <!--img section end-->
       <!--form start-->
       <section class="container formularz">
+
         <div class="row">
-          <form class="col s12">
+          <form class="col l8 offset-l2 m8 offset-m2 s11 offset-s1">
+            <h2 >Napisz do nas</h2>
             <div class="row">
               <div class="input-field col s6">
                 <i class="material-icons prefix">account_circle</i>
@@ -87,22 +90,37 @@
               <div class="input-field col s12">
                 <i class="material-icons prefix">mode_edit</i>
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
-                <label for="textarea1">Textarea</label>
+                <label for="textarea1">Wpisz wiadomość</label>
               </div>
+              <button class="btn waves-effect waves-light col l8 offset-l2 m8 offset-m2 s11 offset-s1" type="submit" name="action">Wyślij
+                <i class="material-icons right">send</i>
+              </button>
             </div>
           </form>
         </div>
       </section>
       <!--form end-->
-       
+       <!--kamery start-->
+       <section class="container camera">
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#one!"><img src="img/telefon.png"></a>
+          <a class="carousel-item" href="#two!"><img src="img/telefon.png"></a>
+          <a class="carousel-item" href="#three!"><img src="img/telefon.png"></a>
+          <a class="carousel-item" href="#four!"><img src="img/telefon.png"></a>
+        </div>
+
+       </section>
+       <!--kamery end-->
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript">
         $(document).ready(function(){
           $('.slider').slider({full_width: true });
+          $('.carousel.carousel-slider').carousel({full_width: true});
          
     });
-    </script> 
+    </script>
+     
     </body>
   </html>
