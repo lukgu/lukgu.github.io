@@ -38,3 +38,7 @@ font-weight: 500;
 	padding: 35px 20px;
 	height: 100%;
 }
+
+footer.page-footer {
+	background-color: #3278CF;
+}
