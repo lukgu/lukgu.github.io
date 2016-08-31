@@ -102,13 +102,13 @@
       <!--form end-->
        <!--kamery start-->
        <section class="container camera">
-        <div class="carousel carousel-slider">
-          <a class="carousel-item" href="#"><img src="img/telefon.png"></a>
-          <a class="carousel-item" href="#"><img src="img/laptop.png"></a>
-          <a class="carousel-item" href="#"><img src="img/telewizja.png"></a>
-          <a class="carousel-item" href="#"><img src="img/laptop.png"></a>
+        
+        <div class="row">
+          <div class="col s12 m6 l3"><img class="materialboxed" width="100%" src="http://live.knc.pl/kam2.php"></div>
+          <div class="col s12 m6 l3"><img class="materialboxed" width="100%" src="http://live.knc.pl/kam3.php"></div>
+          <div class="col s12 m6 l3"><img class="materialboxed" width="100%" src="http://live.knc.pl/kam4.php"></div>
+          <div class="col s12 m6 l3"><img class="materialboxed" width="100%" src="http://live.knc.pl/kam5.php"></div>
         </div>
-
        </section>
        <!--kamery end-->
       <!--Import jQuery before materialize.js-->
@@ -117,7 +117,7 @@
       <script type="text/javascript">
         $(document).ready(function(){
           $('.slider').slider({full_width: true });
-          $('.carousel.carousel-slider').carousel({full_width: true});
+          $('.materialboxed').materialbox();
          
     });
     </script>
