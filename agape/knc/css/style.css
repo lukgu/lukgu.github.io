@@ -13,16 +13,18 @@ font-weight: 500;
 }
 
 .sli {
-	height: 90vh;
+	height: 93vh;
 	width: 100%;
 }
 
 .slider.fullscreen {
-	height: 90vh;
+	height: 93vh;
 }
 
 nav {
 	position: fixed;
+	height: 7vh;
+	z-index: 99;
 }
 .icons {
 	margin: 0 auto;
